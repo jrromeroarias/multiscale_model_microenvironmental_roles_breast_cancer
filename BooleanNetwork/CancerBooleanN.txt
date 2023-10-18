@@ -1,0 +1,13 @@
+# Boolean functions for breast cancer
+
+targets, factors
+TP53, !HER2 & !P21 & AKT1 & !MDM2 & ATR & BRCA1
+ATR, BRCA1 
+ATM, TP53
+BRCA1, !AKT1 & !CDK2 & ATR
+HER2, HER2 
+MDM2, TP53 & AKT1 & ATM & !ATR
+CHEK1, !AKT1 & BRCA1 & ATR
+AKT1, P21 
+P21, HER2 & !TP53
+CDK2, !CDK2 & P21
